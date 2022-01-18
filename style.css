@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  text-align: center;
+  background: white;
+}
+
+.logo {
+  width: 10%;
+  height: 20%;
+  margin: 20px 0px 60px;
+}
+
+h1 {
+  color: rgb(238, 155, 45);
+  font-size: 48px;
+  margin-bottom: 60px;
+  text-shadow: 2px 2px 4px gray;
+}
+.recipes {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-left: 80px;
+}
+.recipe {
+  max-width: 30%;
+  background-color: rgb(238, 155, 45);
+  height: 400px;
+  border-radius: 80px;
+  box-shadow: 6px 6px 8px darkgrey;
+}
+
+.recipe:hover {
+  transform: scale(1.25);
+  transition: all ease;
+  border-radius: 80px;
+  box-shadow: 3px 3px 5px darkgrey;
+}
+
+.img {
+  width: 100%;
+}
+.recipe p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.recipe a {
+  color: rgb(7, 80, 7);
+  text-decoration: none;
+}
+
+.recipe a:hover,
+.recipe a:active {
+  color: honeydew;
+}
+
+.recipe a:visited {
+  color: rgb(241, 225, 132);
+}
+
+.main_contents {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  gap: 40px;
+  margin-right: 50px;
+}
+
+.right-side {
+  width: 50%;
+}
+img{
+    margin-bottom:30px;
+}
+
+hr{
+    margin:0 50px 40px 50px;
+
+}
+
+article p{
+    text-align:left;
+    margin:0 40px;
+    font-size:24px;
+}
+
+.left-side {
+  width: 50%;
+  text-align: left;
+  font-size: 25px;
+  background: rgb(247, 232, 186);
+  padding: 50px;
+  margin-right:50px;
+  border-radius:20px;
+  
+}
+
+.heading {
+  margin-bottom: 30px;
+  color:saddlebrown
+}
+
+.description {
+  margin-bottom: 60px;
+}
+
+.ingredients {
+  margin-bottom: 60px;
+}
+.ingredients li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.steps {
+  margin-bottom: 50px;
+}
+
+.steps li{
+    margin-bottom:30px;
+}
+
+
